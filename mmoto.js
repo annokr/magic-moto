@@ -1,2 +1,3 @@
-require('./css/style.css');
-document.write(require('./js/content.js'));
+jQuery = require('jquery');
+require('bootstrap-loader');
+require('./css/style.scss');
