@@ -1,10 +1,63 @@
 body {
   font-family: Arial, sans-sarif;
+
 }
 .header {
-  margin: 20px auto;
+  margin:auto;
 }
 .col-xs-12 {
 	padding-left: 0;
 	padding-right: 0;
+}
+.navbar-brand {
+  font-size: 30px;
+}
+.navbar-right {
+  font-size: 20px;
+}
+section {
+  background:yellow;
+
+}
+.banner
+{
+  background-image: url('/images/Golf-GTi1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 1240px;
+}
+.banner .row
+{
+  text-align:center;
+  margin-top:200px;
+  padding-left:0;
+  text-align: left;
+  float: left;
+}
+.banner h1
+{
+  color:white;
+  font-size: 70px;
+  margin-top: 300px;
+}
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.5);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.5);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
 }
