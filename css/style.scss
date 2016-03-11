@@ -1,11 +1,10 @@
 body {
-	font-family: sans-sarif;
+  font-family: Arial, sans-sarif;
 }
-
 .header {
-	margin: 20px auto;
-
-	h1 {
-		font-size: 20px;
-	}
+  margin: 20px auto;
+}
+.col-xs-12 {
+	padding-left: 0;
+	padding-right: 0;
 }
