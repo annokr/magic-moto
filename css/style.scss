@@ -1,46 +1,48 @@
 body {
   font-family: Arial, sans-sarif;
+}
 
-}
-.header {
-  margin:auto;
-}
-.col-xs-12 {
-	padding-left: 0;
-	padding-right: 0;
-}
 .navbar-brand {
   font-size: 30px;
 }
+
 .navbar-right {
   font-size: 20px;
 }
-section {
-  background:yellow;
 
+.container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+    padding-left: 15px;
+    padding-right: 15px;
 }
-.banner
-{
-  background-image: url('/images/Golf-GTi1.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center top;
-  height: 1240px;
+
+
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
-.banner .row
-{
-  text-align:center;
-  margin-top:200px;
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner .row {
+  margin-top:0;
   padding-left:0;
   text-align: left;
-  float: left;
 }
-.banner h1
-{
-  color:white;
+
+.banner h1 {
+  color:red;
   font-size: 70px;
-  margin-top: 300px;
+  z-index: 2;
+
 }
+
 .opaque-navbar {
     background-color: rgba(0,0,0,0.5);
   /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
@@ -54,10 +56,44 @@ section {
     height: 60px;
     transition: background-color .5s ease 0s;
 }
+
 .opaque-navbar {
     background-color: rgba(0,0,0,0.5);
   /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
     height: 60px;
     border-bottom: 0px;
     transition: background-color .5s ease 0s;
+}
+
+.moreInfo p {
+  color: grey;
+}
+  .performance {
+    background-color: green;
+    height: 500px;
+    color: white;
+  }
+  .power {
+    background-color: red;
+    height: 500px;
+    color: white;
+  }
+.handling {
+   background-color: black;
+   height: 1000px;
+   color: white;
+ }
+ .accessories {
+   background-color: yellow;
+   height: 500px;
+ }
+.charged {
+  background-color: blue;
+  height: 500px;
+  color: white;
+}
+.viewMore {
+  background-color: red;
+  height: 500px;
+  color: white;
 }
